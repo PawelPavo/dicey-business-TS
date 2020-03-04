@@ -1,0 +1,17 @@
+#die-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.roll {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    margin: 5px;
+    box-shadow: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

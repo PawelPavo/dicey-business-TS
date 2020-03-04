@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+    <title>TS Dicey Business</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row my-3 border border-primary py-4 shadow">
+            <div class="col-4">
+                <button id="generate-die-btn" class="btn btn-success px-3" >New-Die</button>
+            </div>
+            <div class="col-4">
+                <button id="re-roll-btn" class="btn btn-warning px-4">Re-Roll</button>
+            </div>
+            <div class="col-4">
+                <button id="sum-die-btn" class="btn btn-primary px-3">Sum-Dice</button>
+            </div>
+        </div>
+        <div class="row mt-5 border border-primary py-4 shadow justify-content-center">
+            <div class="col-6">
+                <div id="die-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
